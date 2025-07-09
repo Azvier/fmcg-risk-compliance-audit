@@ -1,6 +1,16 @@
 # Datasets
 datasets/
 
+# Code
+notebooks/
+scripts/
+
+# Miscellaneous
+misc/
+
+# .env files
+.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
