@@ -5,6 +5,7 @@ datasets/
 notebooks/
 scripts/
 src/
+main.py
 
 # Miscellaneous
 misc/
