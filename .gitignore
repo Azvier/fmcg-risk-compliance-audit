@@ -9,6 +9,9 @@ src/
 # Miscellaneous
 misc/
 
+# Congfiguration guide
+CONFIGURATION_GUIDE.md
+
 # .env files
 .env
 
