@@ -33,21 +33,28 @@ The audit process is designed to be performed primarily using Microsoft Excel an
 fmcg-risk-compliance-audit/
 ├── .gitignore
 ├── LICENSE
+├── main.py
 ├── pdm.lock
 ├── pyproject.toml
 ├── README.md
-├── misc/
+├── audit-results/
 ├── datasets/
 │   └── raw/
-└── scripts/
-    └── data-generation.py
+├── misc/
+├── scripts/
+└── src/
+    └── data/
 ```
 
-*   **`datasets/`**: Contains the raw data files (CSV) to be used as the basis for the audit.
+*   **`audit-results/`**: Contains the excel file of the audit.
+*   **`datasets/`**: Contains the data files.
+    *   `raw/`: The original, untouched datasets.
+*   **`main.py`**: The main entry point for the data generation process.
 *   **`misc/`**: Contains project-related documents and instructions.
-*   **`scripts/`**: Contains an optional Python script (`data-generation.py`) intended for developers who want to regenerate the source data.
+*   **`src/`**: Contains the source code for the project.
+    *   `data/`: Contains modules for generating datasets.
 
-> **Note:** The datasets and data generation scripts will be made available after the Excel audit implementation and documentation are finalized.
+**Note:** The datasets and data generation scripts will be made available after the Excel audit implementation and documentation are finalized.
 
 ## License
 
