@@ -4,6 +4,7 @@ datasets/
 # Code
 notebooks/
 scripts/
+src/
 
 # Miscellaneous
 misc/
